@@ -1,0 +1,18 @@
+<!-- templates/hospital_portal.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital Portal</title>
+</head>
+<body>
+    <h1>Hospital Portal</h1>
+    <p>Here is the user data:</p>
+    <p>Name: {{ name }}</p>
+    <p>Aadhaar Number: {{ aadhaar_number }}</p>
+    <p>Pincode: {{ pincode }}</p>
+    <p>Mobile Number: {{ mobile_number }}</p>
+    <p>Severity: {{ severity }}</p>
+    <p>Medical Report Image:</p>
+    <img src="{{ report_image }}" alt="Medical Report">
+</body>
+</html>
